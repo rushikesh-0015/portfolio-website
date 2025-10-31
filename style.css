@@ -39,3 +39,18 @@ footer {
   bottom: 0;
   width: 100%;
 }
+/* Added new design updates */
+header {
+  background: linear-gradient(to right, #4a90e2, #6fc3df);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button {
+  background: linear-gradient(45deg, #4a90e2, #357abd);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #357abd, #4a90e2);
+}
